@@ -4,7 +4,6 @@ import getUserName from '../src/index.js';
 import game from '../src/brain-even.js';
 
 const getHello = () => console.log('Welcome to the Brain Games!');
-
 getHello();
-getUserName();
-game();
+const userName = getUserName();
+game(userName);

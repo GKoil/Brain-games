@@ -6,7 +6,9 @@
 
 ## Используемые инструменты
 
-## Скриншоты
+## Пример использования
+[![asciicast](https://asciinema.org/a/9HG67tCgVcP3NCXLPki2U9o6N.svg)](https://asciinema.org/a/9HG67tCgVcP3NCXLPki2U9o6N)
+[![asciicast](https://asciinema.org/a/g2rcShQzhLn5HIebRSp74Llgv.svg)](https://asciinema.org/a/g2rcShQzhLn5HIebRSp74Llgv)
 
 ## Использование
 1. Склонировать репозиторий
