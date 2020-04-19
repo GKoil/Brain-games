@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-const game = (userName) => {
+const gameEven = (userName) => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   let correctAnswers = 0;
 
@@ -20,4 +20,4 @@ const game = (userName) => {
   return console.log(`Congratulations, ${userName}!`);
 };
 
-export default game;
+export default gameEven;
