@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import gameEven from '../src/games/brain-even.js';
 import getUserName from '../src/index.js';
+import gameCalc from '../src/games/brain-calc.js';
 
 const userName = getUserName();
-gameEven(userName);
+gameCalc(userName);
