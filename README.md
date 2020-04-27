@@ -7,8 +7,12 @@
 ## Используемые инструменты
 
 ## Пример использования
+### Игра "Четное или нечетное число?"
 [![asciicast](https://asciinema.org/a/9HG67tCgVcP3NCXLPki2U9o6N.svg)](https://asciinema.org/a/9HG67tCgVcP3NCXLPki2U9o6N)
 [![asciicast](https://asciinema.org/a/g2rcShQzhLn5HIebRSp74Llgv.svg)](https://asciinema.org/a/g2rcShQzhLn5HIebRSp74Llgv)
+### Игра "Калькулятор"
+[![asciicast](https://asciinema.org/a/C9E2YtIFVcBYU49XhL0dmZdJ3.svg)](https://asciinema.org/a/C9E2YtIFVcBYU49XhL0dmZdJ3)
+[![asciicast](https://asciinema.org/a/0Io8BGChMo60ASzc23xLJ91Rx.svg)](https://asciinema.org/a/0Io8BGChMo60ASzc23xLJ91Rx)
 
 ## Использование
 1. Склонировать репозиторий
@@ -27,3 +31,4 @@ make publish
 ```
 npm link
 ```
+5. Запустить и играть 🎮 🎲

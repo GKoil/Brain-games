@@ -13,23 +13,23 @@ const addNumbers = (firstNumber, seconNumber, sign) => {
   }
 };
 
-const gameCalc = (userName) => {
-  const rules = 'What is the result of the expression?';
+const rules = 'What is the result of the expression?';
+
+const getRandomExpression = () => {
   const mathSymbols = ['*', '-', '+'];
 
   const randomMathSymbol = mathSymbols[getRandomValue(2)];
-  const randomFirstNumber = getRandomValue(2); /* TODO: FIX values */
-  const randomSecondNumber = getRandomValue(2);
+  const randomFirstNumber = getRandomValue(3);
+  const randomSecondNumber = getRandomValue(3);
 
   const question = `${randomFirstNumber} ${randomMathSymbol} ${randomSecondNumber}`;
   const answer = addNumbers(randomFirstNumber, randomSecondNumber, randomMathSymbol);
 
-  const trueAnswer = 0;
-  while (trueAnswer !== false) {
-    gameBasis(userName, question, answer, rules, trueAnswer);
-  }
+  return [question, answer];
+};
 
-  return true;
+const gameCalc = (userName) => {
+  gameBasis(userName, getRandomExpression, rules);
 };
 
 export default gameCalc;
