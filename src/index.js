@@ -11,15 +11,12 @@ export const getRandomValue = (values) => Math.floor(Math.random() * values);
 
 export const gameBasis = (userName, getQuestionAnswer, rules) => {
   console.log(rules);
-  let trueAnswer = 0;
-
-  while (trueAnswer !== 3) {
+  for (let i = 0; i < 3; i += 1) {
     const [question, answer] = getQuestionAnswer();
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (`${userAnswer}` === `${answer}`) {
       console.log('Correct!');
-      trueAnswer += 1;
     } else {
       return console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${answer}".\nLet's train again ${userName}`);
     }
