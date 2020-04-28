@@ -4,7 +4,7 @@
 
 
 ## Используемые инструменты
-
+- [readline-sync](https://github.com/anseki/readline-sync)
 ## Пример использования
 ### Игра "Четное или нечетное число?"
 [![asciicast](https://asciinema.org/a/9HG67tCgVcP3NCXLPki2U9o6N.svg)](https://asciinema.org/a/9HG67tCgVcP3NCXLPki2U9o6N)
