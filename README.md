@@ -12,7 +12,9 @@
 ### Игра "Калькулятор"
 [![asciicast](https://asciinema.org/a/C9E2YtIFVcBYU49XhL0dmZdJ3.svg)](https://asciinema.org/a/C9E2YtIFVcBYU49XhL0dmZdJ3)
 [![asciicast](https://asciinema.org/a/0Io8BGChMo60ASzc23xLJ91Rx.svg)](https://asciinema.org/a/0Io8BGChMo60ASzc23xLJ91Rx)
-
+### Игра "Найти наибольший общий делитель"
+[![asciicast](https://asciinema.org/a/r0JKdLxc7eHrrjjF7HSI7JwrN.svg)](https://asciinema.org/a/r0JKdLxc7eHrrjjF7HSI7JwrN)
+[![asciicast](https://asciinema.org/a/I4yhO6sPJ8QPYGyMKN38Bk24P.svg)](https://asciinema.org/a/I4yhO6sPJ8QPYGyMKN38Bk24P)
 ## Использование
 1. Склонировать репозиторий
 ```
