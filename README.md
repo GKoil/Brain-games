@@ -18,6 +18,9 @@
 ### Игра "Арифметическая прогрессия"
 [![asciicast](https://asciinema.org/a/vUPFnTNaJAqRqMTsJmaFy3MKk.svg)](https://asciinema.org/a/vUPFnTNaJAqRqMTsJmaFy3MKk)
 [![asciicast](https://asciinema.org/a/dtkZ0VmW8GVgTS5tX8nDMvluy.svg)](https://asciinema.org/a/dtkZ0VmW8GVgTS5tX8nDMvluy)
+### Игра "Простые числа"
+[![asciicast](https://asciinema.org/a/n7VEMkSzQoi3uZbYuRH6p0hRw.svg)](https://asciinema.org/a/n7VEMkSzQoi3uZbYuRH6p0hRw)
+[![asciicast](https://asciinema.org/a/zcm951hMJppurLnxgReUXsUyQ.svg)](https://asciinema.org/a/zcm951hMJppurLnxgReUXsUyQ)
 ## Использование
 1. Склонировать репозиторий
 ```
