@@ -15,6 +15,9 @@
 ### Игра "Найти наибольший общий делитель"
 [![asciicast](https://asciinema.org/a/r0JKdLxc7eHrrjjF7HSI7JwrN.svg)](https://asciinema.org/a/r0JKdLxc7eHrrjjF7HSI7JwrN)
 [![asciicast](https://asciinema.org/a/I4yhO6sPJ8QPYGyMKN38Bk24P.svg)](https://asciinema.org/a/I4yhO6sPJ8QPYGyMKN38Bk24P)
+### Игра "Арифметическая прогрессия"
+[![asciicast](https://asciinema.org/a/vUPFnTNaJAqRqMTsJmaFy3MKk.svg)](https://asciinema.org/a/vUPFnTNaJAqRqMTsJmaFy3MKk)
+[![asciicast](https://asciinema.org/a/dtkZ0VmW8GVgTS5tX8nDMvluy.svg)](https://asciinema.org/a/dtkZ0VmW8GVgTS5tX8nDMvluy)
 ## Использование
 1. Склонировать репозиторий
 ```
