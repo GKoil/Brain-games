@@ -1,17 +1,28 @@
-import { getRandomValue, gameBasis } from '../index.js';
+import runGameBasis from '../index.js';
+import getRandomValue from '../utils.js';
 
 const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const getRandomNumber = () => {
-  const question = getRandomValue(3);
-  const answer = (question % 2 === 0 || question % 3 === 0 || question % 5 === 0) && question > 0 ? 'yes' : 'no';
+  let answer = 'yes';
+  let answerQuestion = false;
+  const question = getRandomValue(0, 3);
+  if (question < 2) {
+    answerQuestion = false;
+  } else if (question % 2 === 0 || question % 3 === 0 || question % 5 === 0) {
+    answerQuestion = true;
+  }
+
+  if (!answerQuestion) {
+    answer = 'no';
+  }
 
   return [question, answer];
 };
 
 
-const gameIsPrime = (userName) => {
-  gameBasis(userName, getRandomNumber, rules);
+const gameIsPrime = () => {
+  runGameBasis(getRandomNumber, rules);
 };
 
 export default gameIsPrime;
