@@ -3,10 +3,12 @@ import getRandom from '../utils.js';
 
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
+const isEven = (value) => value % 2 === 0;
+
 const getRandomQuestion = () => {
   let answer = 'yes';
   const question = getRandom(0, 15);
-  const answerQuestion = question % 2 === 0;
+  const answerQuestion = isEven(question);
 
   if (!answerQuestion) {
     answer = 'no';

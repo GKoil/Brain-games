@@ -3,15 +3,12 @@ import getRandomValue from '../utils.js';
 
 const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
+const isPrime = (value) => (value % 2 === 0 || value % 3 === 0 || value % 5 === 0) && value > 2;
+
 const getRandomNumber = () => {
   let answer = 'yes';
-  let answerQuestion = false;
   const question = getRandomValue(0, 3);
-  if (question < 2) {
-    answerQuestion = false;
-  } else if (question % 2 === 0 || question % 3 === 0 || question % 5 === 0) {
-    answerQuestion = true;
-  }
+  const answerQuestion = isPrime(question);
 
   if (!answerQuestion) {
     answer = 'no';
