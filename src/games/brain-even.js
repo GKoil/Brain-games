@@ -6,13 +6,9 @@ const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 const isEven = (value) => value % 2 === 0;
 
 const getRandomQuestion = () => {
-  let answer = 'yes';
   const question = getRandom(0, 15);
   const answerQuestion = isEven(question);
-
-  if (!answerQuestion) {
-    answer = 'no';
-  }
+  const answer = answerQuestion === true ? 'yes' : 'no';
 
   return [question, answer];
 };
