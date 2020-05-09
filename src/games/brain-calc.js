@@ -1,7 +1,9 @@
 import runGameBasis from '../index.js';
 import getRandom from '../utils.js';
 
-const addNumbers = (firstNumber, seconNumber, sign) => {
+const mathSings = ['*', '-', '+'];
+
+const calculateNumbers = (firstNumber, seconNumber, sign) => {
   switch (sign) {
     case '+':
       return firstNumber + seconNumber;
@@ -14,23 +16,21 @@ const addNumbers = (firstNumber, seconNumber, sign) => {
   }
 };
 
-const rules = 'What is the result of the expression?';
+const gameTask = 'What is the result of the expression?';
 
-const getRandomExpression = () => {
-  const mathSymbols = ['*', '-', '+'];
+const genGameData = () => {
+  const randomMathSing = mathSings[getRandom(0, 2)];
+  const firstNumber = getRandom(0, 3);
+  const secondNumber = getRandom(0, 3);
 
-  const randomMathSymbol = mathSymbols[getRandom(0, 2)];
-  const randomFirstNumber = getRandom(0, 3);
-  const randomSecondNumber = getRandom(0, 3);
-
-  const question = `${randomFirstNumber} ${randomMathSymbol} ${randomSecondNumber}`;
-  const answer = addNumbers(randomFirstNumber, randomSecondNumber, randomMathSymbol).toString();
+  const question = `${firstNumber} ${randomMathSing} ${secondNumber}`;
+  const answer = calculateNumbers(firstNumber, secondNumber, randomMathSing).toString();
 
   return [question, answer];
 };
 
-const gameCalc = () => {
-  runGameBasis(getRandomExpression, rules);
+const startGameCalc = () => {
+  runGameBasis(genGameData, gameTask);
 };
 
-export default gameCalc;
+export default startGameCalc;

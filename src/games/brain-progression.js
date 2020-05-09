@@ -1,7 +1,7 @@
 import runGameBasis from '../index.js';
 import getRandom from '../utils.js';
 
-const rules = 'What number is missing in the progression?';
+const gameTask = 'What number is missing in the progression?';
 
 const getRandomProgression = () => {
   const arrayProgression = [];
@@ -14,7 +14,7 @@ const getRandomProgression = () => {
   return arrayProgression;
 };
 
-const getQuestionProgression = () => {
+const genGameData = () => {
   const progression = getRandomProgression();
   const randomNumber = getRandom(0, progression.length);
   const answer = (progression[randomNumber]).toString();
@@ -25,8 +25,8 @@ const getQuestionProgression = () => {
 };
 
 
-const gameProgression = () => {
-  runGameBasis(getQuestionProgression, rules);
+const startGameProgression = () => {
+  runGameBasis(genGameData, gameTask);
 };
 
-export default gameProgression;
+export default startGameProgression;
