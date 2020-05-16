@@ -3,31 +3,21 @@ import getRandom from '../utils.js';
 
 const gameTask = 'Find the greatest common divisor of given numbers.';
 
-const trueAnswer = (firstNumber, secondNumber) => {
-  let maxNumber = 0;
-  let minNumber = 0;
-
-  if (firstNumber < secondNumber) {
-    [minNumber, maxNumber] = [firstNumber, secondNumber];
-  } else {
-    [minNumber, maxNumber] = [secondNumber, firstNumber];
+const getGCD = (firstNumber, secondNumber) => {
+  if (secondNumber === 0) {
+    return firstNumber;
   }
-
-  let i = minNumber;
-  while (maxNumber % i !== 0 || minNumber % i !== 0) {
-    i -= 1;
-  }
-  return i;
+  return getGCD(secondNumber, firstNumber % secondNumber);
 };
 
 const genGameData = () => {
   const firstNumber = getRandom(0, 50);
   const secondNumber = getRandom(0, 50);
 
-  const answer = trueAnswer(firstNumber, secondNumber).toString();
+  const answer = getGCD(firstNumber, secondNumber);
   const question = `${firstNumber} ${secondNumber}`;
 
-  return [question, answer];
+  return [question, answer.toString()];
 };
 
 

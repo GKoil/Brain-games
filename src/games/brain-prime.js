@@ -20,7 +20,7 @@ const genGameData = () => {
   const question = getRandom(0, 3);
   const answer = isPrime(question) ? 'yes' : 'no';
 
-  return [question, answer];
+  return [question.toString(), answer];
 };
 
 const startGameIsPrime = () => {

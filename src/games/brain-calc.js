@@ -3,7 +3,7 @@ import getRandom from '../utils.js';
 
 const mathSings = ['*', '-', '+'];
 
-const calculateNumbers = (firstNumber, seconNumber, sign) => {
+const calculate = (firstNumber, seconNumber, sign) => {
   switch (sign) {
     case '+':
       return firstNumber + seconNumber;
@@ -19,12 +19,13 @@ const calculateNumbers = (firstNumber, seconNumber, sign) => {
 const gameTask = 'What is the result of the expression?';
 
 const genGameData = () => {
-  const randomMathSing = mathSings[getRandom(0, 2)];
+  const lenghtMathSing = mathSings.length - 1;
+  const mathSing = mathSings[getRandom(0, lenghtMathSing)];
   const firstNumber = getRandom(0, 3);
   const secondNumber = getRandom(0, 3);
 
-  const question = `${firstNumber} ${randomMathSing} ${secondNumber}`;
-  const answer = calculateNumbers(firstNumber, secondNumber, randomMathSing).toString();
+  const question = `${firstNumber} ${mathSing} ${secondNumber}`;
+  const answer = calculate(firstNumber, secondNumber, mathSing).toString();
 
   return [question, answer];
 };
