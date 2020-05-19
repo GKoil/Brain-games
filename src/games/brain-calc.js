@@ -19,8 +19,7 @@ const calculate = (firstNumber, seconNumber, sign) => {
 const gameTask = 'What is the result of the expression?';
 
 const genGameData = () => {
-  const lenghtMathSing = mathSings.length - 1;
-  const mathSing = mathSings[getRandom(0, lenghtMathSing)];
+  const mathSing = mathSings[getRandom(0, mathSings.length - 1)];
   const firstNumber = getRandom(0, 3);
   const secondNumber = getRandom(0, 3);
 
