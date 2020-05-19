@@ -17,10 +17,10 @@ const genGameData = () => {
   const step = getRandom(0, 20);
   const progression = genProgression(firstNumber, step);
 
-  const hiddenIndex = getRandom(0, progression.length - 1);
-  const answer = progression[hiddenIndex].toString();
+  const hiddenElementIndex = getRandom(0, progression.length - 1);
+  const answer = progression[hiddenElementIndex].toString();
 
-  progression[hiddenIndex] = '..';
+  progression[hiddenElementIndex] = '..';
   const question = progression.join(' ');
 
   return [question, answer];
