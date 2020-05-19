@@ -24,20 +24,23 @@
 [![asciicast](https://asciinema.org/a/n7VEMkSzQoi3uZbYuRH6p0hRw.svg)](https://asciinema.org/a/n7VEMkSzQoi3uZbYuRH6p0hRw)
 [![asciicast](https://asciinema.org/a/zcm951hMJppurLnxgReUXsUyQ.svg)](https://asciinema.org/a/zcm951hMJppurLnxgReUXsUyQ)
 ## Использование
-1. Склонировать репозиторий
+1. Установить пакет
 ```
-git clone git@github.com:GKoil/frontend-project-lvl1.git
+npm install -g brain-games-gkoil
 ```
-2. Установить зависимости
+2. Запустить одну из игр 🎮 🎲
 ```
-make install
+brain-calc
 ```
-3. Сгенерировать пакет локально
 ```
-make publish
+brain-even
 ```
-4. Установить пакет
 ```
-npm link
+brain-gcd
 ```
-5. Запустить и играть 🎮 🎲
+```
+brain-prime
+```
+```
+brain-progression
+```
