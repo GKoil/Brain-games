@@ -1,6 +1,7 @@
 # Brain games
 [![Node CI](https://github.com/GKoil/frontend-project-lvl1/workflows/Node.js%20CI/badge.svg)](https://github.com/GKoil/frontend-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/b558c2eec16d58ccda39/maintainability)](https://codeclimate.com/github/GKoil/frontend-project-lvl1/maintainability)
+[![npm](https://img.shields.io/npm/v/brain-games-gkoil)]
 [![Dependency Status](https://david-dm.org/GKoil/frontend-project-lvl1.svg)](https://david-dm.org/GKoil/frontend-project-lvl1) [![devDependency Status](https://david-dm.org/GKoil/frontend-project-lvl1/dev-status.svg)](https://david-dm.org/GKoil/frontend-project-lvl1?type=dev)
 [![time tracker](https://wakatime.com/badge/github/GKoil/frontend-project-lvl1.svg)](https://wakatime.com/badge/github/GKoil/frontend-project-lvl1)
 
