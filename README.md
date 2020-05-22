@@ -14,16 +14,12 @@
 [![asciicast](https://asciinema.org/a/g2rcShQzhLn5HIebRSp74Llgv.svg)](https://asciinema.org/a/g2rcShQzhLn5HIebRSp74Llgv)
 ### Игра "Калькулятор"
 [![asciicast](https://asciinema.org/a/C9E2YtIFVcBYU49XhL0dmZdJ3.svg)](https://asciinema.org/a/C9E2YtIFVcBYU49XhL0dmZdJ3)
-[![asciicast](https://asciinema.org/a/0Io8BGChMo60ASzc23xLJ91Rx.svg)](https://asciinema.org/a/0Io8BGChMo60ASzc23xLJ91Rx)
 ### Игра "Найти наибольший общий делитель"
 [![asciicast](https://asciinema.org/a/r0JKdLxc7eHrrjjF7HSI7JwrN.svg)](https://asciinema.org/a/r0JKdLxc7eHrrjjF7HSI7JwrN)
-[![asciicast](https://asciinema.org/a/I4yhO6sPJ8QPYGyMKN38Bk24P.svg)](https://asciinema.org/a/I4yhO6sPJ8QPYGyMKN38Bk24P)
 ### Игра "Арифметическая прогрессия"
 [![asciicast](https://asciinema.org/a/vUPFnTNaJAqRqMTsJmaFy3MKk.svg)](https://asciinema.org/a/vUPFnTNaJAqRqMTsJmaFy3MKk)
-[![asciicast](https://asciinema.org/a/dtkZ0VmW8GVgTS5tX8nDMvluy.svg)](https://asciinema.org/a/dtkZ0VmW8GVgTS5tX8nDMvluy)
 ### Игра "Простые числа"
 [![asciicast](https://asciinema.org/a/n7VEMkSzQoi3uZbYuRH6p0hRw.svg)](https://asciinema.org/a/n7VEMkSzQoi3uZbYuRH6p0hRw)
-[![asciicast](https://asciinema.org/a/zcm951hMJppurLnxgReUXsUyQ.svg)](https://asciinema.org/a/zcm951hMJppurLnxgReUXsUyQ)
 ## Использование
 1. Установить пакет
 ```
