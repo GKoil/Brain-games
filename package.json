@@ -1,7 +1,7 @@
 {
   "name": "brain-games-gkoil",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "console game on node.js",
   "main": "src/index.js",
   "type": "module",
   "bin": {
@@ -11,7 +11,7 @@
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js"
   },
-  "scripts": {	
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"	
   },
   "repository": {
