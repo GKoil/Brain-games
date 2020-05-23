@@ -1,10 +1,23 @@
-# Brain games
+<p align="center"><img width="400" src="https://i.imgur.com/W21c117.png"></p>
+
 [![Node CI](https://github.com/GKoil/frontend-project-lvl1/workflows/Node.js%20CI/badge.svg)](https://github.com/GKoil/frontend-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/b558c2eec16d58ccda39/maintainability)](https://codeclimate.com/github/GKoil/frontend-project-lvl1/maintainability)
 [![npm](https://img.shields.io/npm/v/brain-games-gkoil)](https://www.npmjs.com/package/brain-games-gkoil)
 [![Dependency Status](https://david-dm.org/GKoil/frontend-project-lvl1.svg)](https://david-dm.org/GKoil/frontend-project-lvl1) [![devDependency Status](https://david-dm.org/GKoil/frontend-project-lvl1/dev-status.svg)](https://david-dm.org/GKoil/frontend-project-lvl1?type=dev)
 [![time tracker](https://wakatime.com/badge/github/GKoil/frontend-project-lvl1.svg)](https://wakatime.com/badge/github/GKoil/frontend-project-lvl1)
 
+<br/>
+
+## За время создания проекта научился:
+---
+> * Улучшил знания в линукс
+> * Cоздавать, публиковать npm приложения
+> * Правильно именовать функции
+> * Пользоваться сервисами: CodeClimate, Eslint, Github Actions
+> * Подключать и использовать сторонние библиотеки
+---
+
+<br/>
 
 ## Используемые инструменты
 - [readline-sync](https://github.com/anseki/readline-sync)
