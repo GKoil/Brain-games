@@ -1,4 +1,4 @@
-<p align="center"><img width="400" src="https://i.imgur.com/W21c117.png"></p>
+<p align="center"><img width="400" src="https://svgshare.com/i/LQU.svg"></p>
 
 [![Node CI](https://github.com/GKoil/frontend-project-lvl1/workflows/Node.js%20CI/badge.svg)](https://github.com/GKoil/frontend-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/b558c2eec16d58ccda39/maintainability)](https://codeclimate.com/github/GKoil/frontend-project-lvl1/maintainability)
